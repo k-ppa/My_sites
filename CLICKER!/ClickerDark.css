@@ -1,0 +1,47 @@
+body {
+  background: rgb(15, 15, 15);
+  text-align: center;
+  color: white
+}
+
+.topButtons {
+  background: rgb(15, 15, 15);
+  border: 0;
+  color: white;
+}
+
+img {
+  height: 6vw;
+  max-height: 18vh;
+}
+
+#heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vw;
+  max-height: 20vh;
+}
+
+#counter {
+  padding: 10vw;
+  border-radius: 5vh;
+  margin: 10vw 3vw 5vw 3vw;
+  background-color: navajowhite;
+  border-color: black;
+  text-align: center;
+  font-size: 10vh;
+  color: black;
+}
+
+#counting {
+  background-color: dimgrey;
+  border-radius: 5vh;
+  border-color: black;
+  font-size: 10vh;
+  text-align: center;
+  padding: 10vw;
+  color: white;
+}
+
+#reset {
