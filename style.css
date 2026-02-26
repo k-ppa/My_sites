@@ -1,0 +1,56 @@
+body {
+  background: azure;
+  font: Times New Roman;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main {
+  color: black;
+  text-decoration: underline;
+}
+
+#para {
+  display: inline-block;
+  margin-top: 1vw;
+  margin-bottom: 0;
+}
+
+#iMadeThese {
+  background: grey;
+  border: 2px, white;
+  border-radius: 3vw;
+  padding: 5vw;
+  margin-bottom: 2vw;
+  text-align: left;
+}
+
+li {
+  background: dimgrey;
+  border: 2px;
+  border-color: white;
+  border-radius: 2vw;
+  padding: 2vw;
+  margin: 1vw;
+}
+
+.sites {
+  color: white;
+  text-decoration: none;
+}
+
+#press {
+  color: white;
+  background: grey;
+  border: 2px, white;
+  border-radius: 3vw;
+  padding: 3vw;
+  font-size: 7vw;
+  text-align: center;
+}
+
+#invisible {
+  display: none;
+}
