@@ -1,0 +1,159 @@
+body {
+  background: rgb(15, 15, 15);
+  text-align: center;
+  color: white
+}
+
+.topButtons {
+  background: rgb(15, 15, 15);
+  border: 0;
+  color: white;
+}
+
+img {
+  height: 6vw;
+  max-height: 18vh;
+}
+
+#heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vw;
+  max-height: 20vh;
+}
+
+#counter {
+  padding: 10vw;
+  border-radius: 5vh;
+  margin: 10vw 3vw 5vw 3vw;
+  background-color: navajowhite;
+  border-color: black;
+  text-align: center;
+  font-size: 10vh;
+  color: black;
+}
+
+#counting {
+  background-color: dimgrey;
+  border-radius: 5vh;
+  border-color: black;
+  font-size: 10vh;
+  text-align: center;
+  padding: 10vw;
+  color: white;
+}
+
+#reset {
+  background-color: dimgray;
+  border-radius: 5vh;
+  border-color: black;
+  font-size: 9vh;
+  text-align: center;
+  padding: 9vw;
+  color: white;
+}
+
+
+#overlay {
+  top: 0;
+  left: 0;
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100dvh;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0.3; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+#sideMenu {
+  top: 0;
+  left: 0;
+  width: 80vw;
+  margin: 2vw;
+  border-radius: 4vw;
+  height: 100dvh;
+  display: none;
+  z-index: 10;
+  position: fixed;
+  background: rgb(28, 28, 28)
+}
+
+@keyframes slideInLeft {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideOutLeft {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(-100%); opacity: 0; }
+}
+
+#closeButton {
+  background: rgb(28, 28, 28)
+}
+
+#sideUnderline {
+  width: 90%;
+}
+
+#moreHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2vw 2vw 2vw 4vw;
+  height: 10vw;
+}
+
+.options {
+  margin: 1vw;
+  padding: 1vw 3vw 1vw 3vw;
+  border: 2px 2px 2px 2px;
+  border-color: black;
+  border-radius: 10vw;
+}
+
+
+
+#stepValue {
+  padding: 2vw 4vw 2vw 4vw;
+  border-radius: 5vh;
+  margin: 0;
+  background-color: navajowhite;
+  border-color: white;
+  color: black;
+  font-size: 10vh;
+  display: none;
+  text-align: right;
+}
+
+#maximum {
+  padding: 2vw 4vw 2vw 4vw;
+  border-radius: 5vh;
+  margin: 0;
+  background-color: navajowhite;
+  border-color: white;
+  color: black;
+  font-size: 10vh;
+  display: none;
+  text-align: left;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+#stepLabel {
+  display: none;
