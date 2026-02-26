@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CLICKER</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2family=Material+Symbols+Outlined&icon_names=dark_mode,light_mode,more_vert,arrow_back_ios" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="heading">
+    <button class="topButtons" onclick="moree()"><span class="material-symbols-outlined">more_vert</span></button>
+    <h1>CLICKER</h1>
+      <button id="dark" class="topButtons" onclick="darkMode()"><span class="material-symbols-outlined" id="more">light_mode</span></button>
+    </div>
+    <hr>
+    <button id="counting" onclick="nash()">CLICK!</button>
+    <button id="reset" onclick="restart()">Reset</button>
+    <p id="counter">0</p>
+    <div id="bottom">
+    <p class="small" id="maximum"></p>
+    <p class="small" id="stepValue">1</p>
+    </div>
+    
+    <div id="overlay" onclick="closeMenu()"></div>
+      <div id="sideMenu">
+      <div id="moreHeading">
+      <h3>More</h3>
+        <button class="topButtons" onclick="closeMenu()" id="closeButton"><span class="material-symbols-outlined">
+arrow_back_ios
+        </span></button>
+      </div><hr id="sideUnderline">
+      <button id="aim" class="options" onclick="targett()">Target</button>
+      <button id="gap" class="options" onclick="intervall()">Interval</button>
+      <button id="speed" class="options" onclick="fast()">Speed</button><br>
+      <input id="max" placeholder="Enter target" type="number"><br>
+      <input id="sliding" type="range" min="-5" max="4">
+        <label id="stepLabel"></label>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
