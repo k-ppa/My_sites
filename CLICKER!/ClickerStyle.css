@@ -25,7 +25,7 @@ img {
   padding: 10vw;
   margin: 10vw 3vw 5vw 3vw;
   border-radius: 5vh;
-  background: rgb(255, 50, 50);
+  background: navajowhite;
   text-align: center;
   font-size: 10vh;
 }
@@ -41,7 +41,7 @@ img {
 }
 
 #reset {
-  background-color: red;
+  background-color: purple;
   border-radius: 5vh;
   border-color: white;
   font-size: 9vh;
