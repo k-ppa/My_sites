@@ -7,6 +7,10 @@ h1 {
   text-align: center;
 }
 
+#p {
+  font-family: Arial;
+}
+
 .main {
   color: black;
   text-decoration: underline;
@@ -53,4 +57,5 @@ li {
 
 #invisible {
   display: none;
+  font-family: Arial;
 }
