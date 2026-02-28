@@ -36,6 +36,7 @@ img {
 }
 
 #counting {
+  font-family: Times New Roman;
   background-color: dimgrey;
   border-radius: 5vh;
   border-color: black;
@@ -46,6 +47,7 @@ img {
 }
 
 #reset {
+  font-family: Times New Roman;
   background-color: dimgray;
   border-radius: 5vh;
   border-color: black;
